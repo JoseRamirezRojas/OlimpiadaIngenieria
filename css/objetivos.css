@@ -1,0 +1,174 @@
+.objectives{
+    background-color: #EEE;
+    margin-top: 119px;
+    padding-bottom: 60px;
+}
+
+.objectives .row{
+    margin: 0 15%;
+}
+
+.objectives h1{
+    text-align: left;
+    color: var(--black-text);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.objectives p{
+    color: var(--black-text);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+.objectives ul{
+    color: var(--black-text);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */}
+
+.objectives .pictures{
+    margin-top: 64px;
+}
+
+h2{
+    color: var(--gray-text);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 128px;
+    margin-left: 8%;
+}
+
+.axis{
+    height: min-content;
+}
+
+.axis p{
+    color: var(--gray-text);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    margin: 28px 32% 48px 8%;
+}
+
+#city-img{
+    width: 78%;
+    height: 493px;
+    position: relative;
+    left: 22%;
+    background-image: url(../assets/FrameCiudades.jpg);
+    background-size: 100% 100%;
+}
+
+#city-axis{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--green-cities);
+    background: #FFF;
+    position: relative;
+    top: -140px;
+    margin: 0 10%;
+}
+
+#city-axis h3{
+    margin-top: 32px;
+    color: var(--green-cities);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#city-axis p{
+    color: var(--gray-text);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+#nexus-img{
+    width: 78%;
+    height: 493px;
+    position: relative;
+    background-image: url(../assets/FrameNexo.jpg);
+    background-size: 100% 100%;
+}
+
+#nexus-axis{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--blue-nexus);
+    background: #FFF;
+    position: relative;
+    margin-top: -140px;
+    margin-left:  29%;
+}
+
+#nexus-axis h3{
+    margin-top: 32px;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: var(--blue-nexus);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#nexus-axis p{
+    color: var(--gray-text);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+figcaption{
+    text-align: end;
+}
+
+/* * * ** * * ** * * * * */
+/* TABLET RESPONSIVENESS */
+/* * * ** * * ** * * * * */
+@media screen and (min-width:768px) and (max-width:991px){
+    .objectives .row{
+        margin: 0 48px;
+    }
+}
+
+
+/* * * ** * * ** * * * *  * */
+/* * PHONE RESPONSIVENESS * */
+/* * * ** * * ** * * * * * **/
+@media screen and (max-width:767px){
+    .objectives{
+        margin-top: 80px;
+    }
+
+    .objectives .row{
+        margin: 0 16px;
+    }
+}

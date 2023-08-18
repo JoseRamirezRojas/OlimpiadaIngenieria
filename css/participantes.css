@@ -1,0 +1,91 @@
+.hero-participants{
+    background-image: var(--blue-section-mask) /*'hack' to group opacity mask to image in same layer*/ ,
+        url(../assets/gf.jpg);
+    background-size: cover;
+    margin-top: 114px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-participants h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-participants p{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    margin: 2% 14%;
+}
+
+/* REQUIREMENTS */
+.requirements{
+    height: fit-content;
+    margin: 64px 14%;
+    color: var(--gray-text);
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.requirements li{
+    margin: 17px 0;
+}
+
+/* TIMELINE*/
+.row{
+    margin: 0 8%;
+}
+
+#dates{
+    background-color: var(--blue-sections);
+    color: #FFF;
+    height: auto;
+}
+
+#dates h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 40px */
+}
+
+.timeline-caption{
+    border-left: 6px solid white;
+    border-image: linear-gradient(to bottom, transparent 7%, white 7% 88%, transparent 88%) 3;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 2%;
+}
+
+.timeline-caption h3{
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-flex
+}
+
+.timeline-item{
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}

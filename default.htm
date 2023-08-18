@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora tu potencial en la Olimpiada Estudiantil de Proyectos Interdisciplinarios de Ingeniería. Resuelve desafíos técnicos y crea oportunidades para un futuro profesional exitoso. ">
+  <title>Olimpiada Estudiantil Proyectos Interdisciplinarios</title>
+  <link rel="shortcut icon" href="assets/LOGO-olimpiada.svg" type="image/x-icon">
+  <meta name="author" content="José David Ramírez Rojas">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@700&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"><!-- FOR GRID SYSTEM, NAVBAR AND CAROUSEL -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/inicio.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-light shadow" id="mynav">
+    <div class="container-fluid">
+      <section class="justify-content-between pe-4 brands-and-toggler" id="navShadowSection">
+        <div class="justify-content-start brands">
+          <a class="navbar-brand  ms-md-5 ms-3" href="https://www.iingen.unam.mx/" target="_blank">
+            <img src="assets/logo_ii.svg" alt="II bco"   id="logoIingen"> 
+          </a>
+          <a class="navbar-brand" href="default.htm">
+            <img src="assets/LOGO-olimpiada_color-text.svg" alt="Olimpiada bco" id="logoOlimpiada"> 
+          </a> 
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="shadowNavbarCollapse()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </section>
+        
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="navbar-nav mb-2 mb-lg-0 ps-lg-3">
+          <li class="nav-item mx-lg-1 pt-md-2">
+            <a class="nav-link nav-link-top pt-md-4 " aria-current="page" href="ObjetivosEjesTematicos.html">Objetivos y Ejes Temáticos</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2">
+            <a class="nav-link nav-link-top pt-md-4  " href="Participantes.html">Participantes</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2">
+            <a class="nav-link nav-link-top pt-md-4 " href="Entregables.html">Entregables</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2">
+            <a class="nav-link nav-link-top pt-md-4 " href="default.htm#prizes">Premios</a>
+          </li>
+          <li class="nav-item me-lg-5 pt-md-2">
+            <a class="nav-link last-nav-link nav-link-top pt-md-4" href="Contacto.html">Contacto y Comité Organizador</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2 d-md-none">
+            <a class="nav-link nav-link-top pt-md-4 " href="default.htm#dates">Fechas importantes</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2 d-md-none">
+            <a class="nav-link nav-link-top pt-md-4 " href="default.htm#notices">Avisos</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2 d-md-none ">
+            <a class="nav-link nav-link-top pt-md-4 "  style="opacity: 0.5;">Equipos</a>
+          </li>
+          <li class="nav-item mx-lg-1 pt-md-2 d-md-none">
+            <a class="nav-link nav-link-top pt-md-4 "  style="opacity: 0.5;">Ganadores</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR -->
+
+  <!-- UTILITY BAR / SUBMENU -->
+  <nav class="submenu d-none d-md-flex">
+    <ul class="me-5">
+      <li >
+        <a href="#dates" class="submenu-link px-4 " >Fechas importantes </a> 
+      </li>
+      <li >
+        <a href="#notices" class="submenu-link px-4 ">Avisos </a> 
+      </li>
+      <li >
+        <a class="inactive submenu-link px-4 ">Equipos</a> 
+      </li>
+      <li >
+        <a class="inactive submenu-link last-submenu-link px-4">Ganadores </a> 
+      </li>
+    </ul>
+  </nav>
+  <!-- UTILITY BAR / SUBMENU-->
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <!--<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>-->
+    </div>
+    <div class="carousel-inner">
+      <!--<div class="carousel-item active" id="slideBienvenida">
+        <h2> Bienvenidos</h2>
+        <p>[Mensaje de bienvenida de la Dra. Rosa María Ramírez Zamora a la comunidad de la Olimpiada]</p>
+        <a href="Participantes.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 74 74" fill="none">
+            <path d="M11.2957 63.6137C7.76179 60.2005 4.94304 56.1178 3.00391 51.6036C1.06478 47.0895 0.0440882 42.2343 0.001397 37.3215C-0.0412942 32.4087 0.894869 27.5365 2.75526 22.9894C4.61565 18.4422 7.36302 14.3111 10.837 10.837C14.3111 7.36302 18.4422 4.61565 22.9894 2.75526C27.5365 0.894869 32.4087 -0.0412942 37.3215 0.001397C42.2343 0.0440882 47.0895 1.06478 51.6036 3.00391C56.1178 4.94304 60.2005 7.76179 63.6137 11.2957C70.3535 18.2739 74.0829 27.6202 73.9986 37.3215C73.9143 47.0228 70.023 56.3029 63.163 63.163C56.3029 70.023 47.0228 73.9143 37.3215 73.9986C27.6202 74.0829 18.2739 70.3535 11.2957 63.6137ZM58.3967 58.3967C63.9508 52.8425 67.0711 45.3094 67.0711 37.4547C67.0711 29.5999 63.9508 22.0668 58.3967 16.5127C52.8425 10.9585 45.3094 7.8382 37.4547 7.8382C29.5999 7.8382 22.0668 10.9585 16.5127 16.5127C10.9585 22.0668 7.8382 29.5999 7.8382 37.4547C7.8382 45.3094 10.9585 52.8425 16.5127 58.3967C22.0668 63.9508 29.5999 67.0711 37.4547 67.0711C45.3094 67.0711 52.8425 63.9508 58.3967 58.3967ZM26.3547 22.6547L55.9547 37.4547L26.3547 52.2547V22.6547Z" fill="white"/>
+          </svg>
+        </a>
+      </div> -->
+      <div class="carousel-item active" id="slideParticipantes">
+        <h2> ¿Quiénes pueden participar?</h2>
+        <p>Descubre el fascinante mundo de la investigación científica diseñado para estudiantes como tú.</p>
+        <a class="btn-carousel" href="Participantes.html">Descubre más</a>
+      </div>
+      <div class="carousel-item" id="slideFechas">
+        <h2> Fechas importantes</h2>
+        <p>Consulta las fechas clave en la Convocatoria 2023.</p>
+        <a class="btn-carousel" href="#dates">Descubre más</a>
+      </div>
+      <div class="carousel-item" id="slidePremios">
+        <h2> Premios</h2>
+        <p> <b> El Instituto de Ingeniería otorgará los siguientes premios a los equipos ganadores: </b><br> <br>
+          1. Primer lugar <b> $100,000.00 </b>(cien mil pesos 00/100 M.N.). <br>
+          2. Segundo lugar <b> $75,000.00 </b>(setenta y cinco mil pesos 00/100 M.N.). <br>
+          3. Tercer lugar <b>  $50,000.00 </b>(cincuenta mil pesos 00/100 M.N.).</p>
+      </div>
+      <div class="carousel-item" id="slideAvisos">
+        <h2> Avisos</h2>
+        <p>Sigue las actualizaciones de la Olimpiada Estudiantil.</p>
+        <a class="btn-carousel" href="#notices">Descubre más</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span >
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="47" viewBox="0 0 19 47" fill="none">
+          <path d="M-1.15835e-06 23.5L18.75 0.550326L18.75 46.4497L-1.15835e-06 23.5Z" fill="#D9D9D9"/>
+        </svg>
+      </span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span  >
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="47" viewBox="0 0 19 47" fill="none">
+          <path d="M19 23.5L0.249999 46.4497L0.249998 0.550328L19 23.5Z" fill="#D9D9D9"/>
+        </svg>
+      </span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- CAROUSEL -->
+
+  <!-- ABOUT SECTION-->
+  <section class="mt-5" id="call">
+    <h2>Convocatoria <br> Primera Olimpiada Estudiantil de Proyectos Interdisciplinarios de Ingeniería (OE-PII) <br> IIUNAM 2023</h2>
+    <p >El IIUNAM convoca a estudiantes y miembros de la comunidad académica del IIUNAM y de la Facultad de Ingeniería (FI) o de otras entidades académicas a presentar propuestas de anteproyectos, desarrollos o prototipos que permitan resolver algún reto de la ingeniería que contribuya al desarrollo del país dentro de dos ejes temáticos:</p>
+    <p ><b> 1.Ciudades Inteligentes y Sustentables (CIS). <br> 2. Nexo Agua-Energía-Ambiente-Seguridad Alimentaria (Nexo Agua).</b> </p>
+    <p> Para participar es preciso formar equipos. <br> Para conocer las bases de la convocatoria puedes ingresar al siguiente enlace:</p>
+    <a href="docs/Participantes/Convoc_OEPII_IIUNAM_2023.pdf" target="_blank"  class="mb-5">Descargar la Convocatoria 2023</a>
+  </section>
+  <!-- ABOUT SECTION-->
+
+  <!-- WIDGETS-->
+  <section class=" g-0" id="participants">
+    <section class="row">
+      <h2 class="my-5"> Participantes</h2>
+      <a class="widget col-lg-3 col-md-6" href="docs/Participantes/Convoc_OEPII_IIUNAM_2023.pdf" target="_blank">
+        <h3> Convocatoria OE-PII IIUNAM 2023</h3>
+        <span class="material-symbols-outlined"> download </span>
+      </a>
+      <a class="widget col-lg-3 col-md-6" href="docs/Participantes/ProgramaMinisimposio.pdf" target="_blank">
+        <h3> Lista de participantes en el minisimposio</h3>
+        <span class="material-symbols-outlined"> download </span>
+      </a>
+      <a class="widget col-lg-3 col-md-6" href="docs/Participantes/CuadernilloCapacitacion.pdf" target="_blank">
+        <h3> Programa de capacitación para la creación de EBT (PC-EBT)</h3>
+        <span class="material-symbols-outlined"> download </span>
+      </a>
+      <a class="widget col-lg-3 col-md-6 widget-inactive col" target="_blank">
+        <h3> Asesores y coasesores</h3>
+      </a>
+    </section>
+  </section>
+  <!-- WIDGETS-->
+
+  <!-- TIMELINE DATES -->
+  <section class=" py-5 g-0" id="dates">
+    <section class="row mt-3 gx-5 pt-1" >
+      <h2 class="my-5">Fechas importantes</h2>
+      <section href="" target="_blank" class="col-lg-6 ">
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>1er Reunión Informativa    Olimpiada Estudiantil de Proyectos Interdisciplinarios de Ingeniería 2023    </h3>
+            <p>12 de mayo de 2023              <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Registro al minisimposio  “Proyectos de investigación en Ingeniería en la UNAM 2023”            </h3>
+            <p> 14 - 23 de junio de 2023              <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Minisimposio  “Proyectos de investigación en Ingeniería en la UNAM 2023”            </h3>
+            <p> 27 de junio de 2023              <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Conformación de equipos            </h3>
+            <p> 27 de junio - 10 de agosto de 2023     <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>2a Reunión informativa: Conformación de equipos y detalles de la Convocatoria de la Olimpiada Estudiantil de Proyectos Interdisciplinarios de la Ingeniería 2023         </h3>
+            <p>28 de julio de 2023     <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Conformación de equipos            </h3>
+            <p> 11 de agosto de 2023              <br> </p>
+          </section>
+        </section>
+      </section>
+      <section href="" target="_blank" class="col-lg-6 ">
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Programa de Capacitación para la Creación de Empresas</h3>
+            <p> 15 de agosto - 15 de noviembre de 2023<br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>3era Reunión informativa. Equipos. Entrega de prepropuesta y Programa de Capacitación.  </h3>
+            <p> 21 de agosto 13:00 horas SSER<br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Entrega de la pre-propuesta  </h3>
+            <p> 25 de agosto de 2023         <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Entrega de proyecto final   </h3>
+            <p> 16 de noviembre  de 2023         <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Evaluación de los proyectos  </h3>
+            <p> diciembre de 2023         <br> </p>
+          </section>
+        </section>
+        <section class="timeline-item">
+          <section class=" timeline-caption">
+            <h3>Notificación equipos ganadores   </h3>
+            <p> enero de 2024         <br> </p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+  <!-- TIMELINE-->
+
+  <!-- NOTICES -->
+  <section id="notices" class="row">
+    <section class="notices-header-desktop col-2">
+      <h2>Avisos</h2>
+    </section>
+    <section class="notices-header-mobile col-12 d-lg-none">
+      <h2>Avisos</h2>
+    </section>
+    <section class="col" id="notices-grid">
+      <section class="row" id="first-row-notices">
+        <section class="col-md-6 " id="notice1">
+          <section class="notice-date"> 
+            <h3>11 agosto 2023</h3>
+          </section>
+          <section class="notice-caption">
+            <h3>Conformación de equipos</h3>
+            <p>Conformación de equipos </p>
+          </section>
+        </section>
+        <section class="col-md-6" id="notice2">
+          <section class="notice-date"> 
+            <h3>15 agosto - <br> 15 noviembre 2023</h3>
+          </section>
+          <section class="notice-caption">
+            <h3>Programa de Capacitación para la Creación de Empresas</h3>
+            <p> Programa de Capacitación para la Creación de Empresas de Base Tecnológica</p>
+          </section>
+        </section>
+      </section>
+      <section class="row" id="second-row-notices">
+        <section class="col-md-6 " id="notice3">
+          <section class="notice-date"> 
+            <h3>21 agosto 2023</h3>
+          </section>
+          <section class="notice-caption">
+            <h3>3era Reunión informativa. Equipos. Entrega de prepropuesta y Programa de Capacitación</h3>
+            <p> Reunión con los equipos participantes para aclarar dudas o resolver inconvenientes además de informar sobre el Programa de Capacitación para la Creación de Empresas <br> 13:00- 14:00 horas.</p>
+          </section>
+        </section>
+        <section class="col-md-6 " id="notice4">
+          <section class="notice-date"> 
+            <h3>25 agosto 2023</h3>
+          </section>
+          <section class="notice-caption">
+            <h3>Entrega prepropuesta</h3>
+            <p>Entrega prepropuesta</p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+  <!-- NOTICES -->
+
+  <!-- PRIZES -->
+    <section id="prizes">
+      <h2> Premios</h2>
+        <p> <b> El Instituto de Ingeniería otorgará los siguientes premios a los equipos ganadores: </b><br> <br>
+          1. Primer lugar <b> $100,000.00 </b>(cien mil pesos 00/100 M.N.). <br> <br>
+          2. Segundo lugar <b> $75,000.00 </b>(setenta y cinco mil pesos 00/100 M.N.). <br><br>
+          3. Tercer lugar <b>  $50,000.00 </b>(cincuenta mil pesos 00/100 M.N.).
+        </p>
+    </section>
+  <!-- PRIZES -->
+
+  <!-- CONTACT -->
+    <section id="contact">
+      <section id="comments">
+        <h2> ¿Dudas o comentarios?</h2>
+        <p>Para dudas y comentarios sobre la Olimpiada, puedes comunicarte utilizando la siguiente información de contacto.</p>
+      </section>
+    
+      <section class="row gx-4 justify-content-center">
+        <img class="col-md-6" src="assets/png logo solo.png" alt="logo" onmouseover="this.src='assets/para-web-logo.gif'" id="logo-gif">
+        <article class="col-md-6 "> <br>
+          <h3 class=" ps-lg-5">Mtra. Margarita Elizabeth Cisneros Ortiz</h3>
+          <p class="ps-lg-5">
+            MCisnerosO@iingen.unam.mx<br>
+            <b>Coordinadora de Ingeniería Ambiental </b> <br> 
+            Instituto de Ingeniería <br>
+            <b>Tel: +52 5556233600 ext. 8700 </b>
+          </p>
+        </article>
+      </section>
+    </section>
+  <!-- CONTACT -->
+
+  <!-- FOOTER-->
+  <footer>  
+    <div class="limitador"> 
+      <div class="contenedorl1">           
+      </div>
+      <div id="line"><hr style="border-top: dashed 1px"></div>
+      <div class="contenedorl1">
+        <div class="contenedorl2">
+          <div class="contenedorl3">
+            <h3>Acerca del IIUNAM</h3>
+            <p>En 1956 comienza la historia<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/Historia.aspx"><br><i class="fas fa-arrow-circle-right"></i>Historia</a></p>
+            <p>Conoce m&#225;s sobre el IIUNAM<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Nosotros</a></p>
+            <p>C&#243;mo llegar al Instituto<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/Ubicacion.aspx"><br><i class="fas fa-arrow-circle-right"></i>Ubicaci&#243;n</a></p>
+            <p>Conoce la estructura del IIUNAM<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Organizacion/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Organizaci&#243;n</a></p>
+            <p>Reserva tu espacio y acomp&#225;&ntilde;anos<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/VisitasGuiadas.aspx"><br><i class="fas fa-arrow-circle-right"></i>Visitas guiadas</a></p>
+            <p>Env&#237;anos tus comentarios<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/Contacto.aspx"><br><i class="fas fa-arrow-circle-right"></i>Contacto</a></p>
+          </div>
+          <div class="contenedorl3">
+            <h3>Servicios IIUNAM</h3>
+            <p>Buscas un libro, comun&#237;cate<a href="https://sitios.iingen.unam.mx/USIBiblioteca/" target="_blank"><br><i class="fas fa-arrow-circle-right"></i>USI Biblioteca</a></p>
+            <p>Servicio interno de correo<a href="https://mail.iingen.unam.mx/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.iingen.unam.mx%2fowa%2f"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>Correo IINGEN</a></p>
+            <p>Servicio interno de correo<a href="https://pumas.iingen.unam.mx/"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>Correo PUMAS</a></p>
+            <p><a href="https://intranet.iingen.unam.mx/default.aspx"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>INTRANET</a></p>
+            <p><a href="https://www.iingen.unam.mx/es-mx/Nosotros/Paginas/Directorio.aspx"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>Directorio</a></p>
+            <p>Comisi&oacute;n Interna para la Igualdad de G&eacute;nero<a href="https://www.iingen.unam.mx/es-mx/Nosotros/Genero/CInIG/Paginas/default.aspx"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>CInIG-IIUNAM</a></p>
+            <p>
+            Apoyo a distancia
+              <a href="https://iingen.sharepoint.com/sites/Docencia/"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>Actividades acad&eacute;micas</a>
+              <a href="https://iingen.sharepoint.com/sites/Espora"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>Programa ESPORA</a>
+            </p>
+          </div>
+          <div class="contenedorl3">
+            <h3>Difusi&#243;n</h3>
+            <p>Toda la informaci&#243;n aqu&#237;<a href="https://www.iingen.unam.mx/es-mx/Difusion/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Noticias y eventos</a></p>
+            <p>Consulta lo &#250;ltimo sobre el IIUNAM<a href="https://www.iingen.unam.mx/es-mx/AlmacenDigital/Gaceta/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Gaceta</a></p>
+            <p>Revisa la producci&#243;n acad&#233;mica del IIUNAM.<a href="https://www.iingen.unam.mx/es-mx/AlmacenDigital/Articulos/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Art&#237;culos</a></p>         
+            <p>Encuentra contenido exclusivo<a href="https://www.iingen.unam.mx/es-mx/AlmacenDigital/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Difusi&#243;n</a></p>
+            <p>No te pierdas nuestras transmisiones<a href="https://www.iingen.unam.mx/es-mx/AlmacenDigital/Streaming/Paginas/default.aspx"><br><i class="fas fa-arrow-circle-right"></i>Videostreaming</a></p>
+          </div>
+          <div class="contenedorl3">
+            <h3>S&#237;guenos</h3>
+            <div class="redes">
+              <a href="https://twitter.com/IIUNAM" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.facebook.com/InstitutoIngenieriaUNAM/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/iiunam/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/user/IINGENUNAM" target="_blank"><i class="fab fa-youtube-square"></i></a>
+              <a href="https://www.linkedin.com/company/iiunam/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fas fa-rss-square" target="_blank"></i></a>
+            </div>               
+          </div>   
+          <div class="contenedorl3">
+            <h3>COVID 19 - IIUNAM</h3>
+            <a href="https://iingen.sharepoint.com/sites/Covid19-IIUNAM" target="_blank"><img style="height: 60px" src="https://www.ii.unam.mx/es-mx/Paginas/Splash_bkp/img/logos/shield-ii-covid-black.svg" alt=""></a>
+            <p>Sitio interno</p> <BR></BR>
+            <p>Lineamientos generales<a href="https://www.iingen.unam.mx/es-mx/covid-19/Paginas/default.aspx"  target="_blank"><br><i class="fas fa-arrow-circle-right"></i>COVID-19</a></p>
+          </div>
+        </div>
+        <div class="contenedorl22">
+          <h3>Misi&#243;n</h3>
+          <p>Contribuir al desarrollo del pa&#237;s y al bienestar de la sociedad a trav&#233;s de la investigaci&#243;n en ingenier&#237;a, de la formaci&#243;n de recursos humanos y de la vinculaci&#243;n con la sociedad.</p> 
+          <hr>
+          <h3>Visi&#243;n</h3>
+          <p>Ser el centro de investigaci&#243;n en ingenier&#237;a m&#225;s relevante, de mayor calidad y pertinencia en M&#233;xico, con capacidades para competir a niveles internacionales. Ser generador de conocimientos aplicables a la soluci&#243;n de los grandes problemas de la ingenier&#237;a nacional. Ser formador de nuevas generaciones de ingenieros e investigadores de alta calidad comprometidos con el pa&#237;s.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER-->
+
+  <script src="js/app.js" defer></script>
+
+  <!-- FOR CAROUSEL, NAVBAR AND GRID SYSTEM -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <!-- FOR FONTS AND ICONS -->
+  <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJY9SHBQ8N"></script>
+
+  <script defer>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JJY9SHBQ8N');
+  </script>
+</body>
+</html>

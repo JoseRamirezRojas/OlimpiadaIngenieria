@@ -1,0 +1,10 @@
+h1{
+    color: var(--black-text);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 182px;
+    text-align: center;
+}
