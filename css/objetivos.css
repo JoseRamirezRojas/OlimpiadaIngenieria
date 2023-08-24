@@ -37,7 +37,20 @@
     line-height: 150%; /* 30px */}
 
 .objectives .pictures{
-    margin-top: 64px;
+    margin-top: 135px;
+}
+
+.pictures .row{
+    margin: 0 0 0 38px;
+}
+
+#firstPicture{
+    width: 100%;
+    height: 202px;
+    background-image: url(../assets/Frame6.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left bottom;
 }
 
 h2{
@@ -146,6 +159,10 @@ h2{
     line-height: 150%; /* 30px */
 }
 
+figure{
+    margin: 0;
+}
+
 figcaption{
     text-align: end;
 }
@@ -156,6 +173,41 @@ figcaption{
 @media screen and (min-width:768px) and (max-width:991px){
     .objectives .row{
         margin: 0 48px;
+    }
+
+    .objectives .pictures{
+        margin-top: 40px;
+    }
+
+    h2{
+        margin-top: 40px;
+    }
+
+    .axis p{
+        margin: 28px 48px;
+    }
+
+    #city-img{
+        width: 100%;
+        left: 0;
+    }
+
+    #city-axis{
+        width: 100%;
+        top: 0;
+        margin: 0;
+    }
+
+    #nexus-img{
+        margin-top: 72px;
+        width: 100%;
+        left: 0;
+    }
+
+    #nexus-axis{
+        width: 100%;
+        top: 0;
+        margin: 0;
     }
 }
 
@@ -169,6 +221,57 @@ figcaption{
     }
 
     .objectives .row{
-        margin: 0 16px;
+        margin: 0;
+    }
+
+    .row article{
+        margin: 0;
+    }
+
+    .objectives .pictures{
+        margin-top: 24px;
+    }
+
+    .col-md-12{
+        width: 100vw;
+        height: 180px;
+        padding: 0;
+    }
+
+    .pictures{
+        padding: 0;
+    }
+
+    h2{
+        margin-top: 40px;
+    }
+
+    .axis p{
+        margin: 28px 16px;
+    }
+
+    #city-img{
+        width: 100%;
+        left: 0;
+        height: 223px;
+    }
+
+    #city-axis{
+        width: 100%;
+        top: 0;
+        margin: 0;
+    }
+
+    #nexus-img{
+        margin-top: 72px;
+        width: 100%;
+        left: 0;
+        height: 223px;
+    }
+
+    #nexus-axis{
+        width: 100%;
+        top: 0;
+        margin: 0;
     }
 }

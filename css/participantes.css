@@ -89,3 +89,51 @@
     margin-bottom: 20px;
     border-bottom: 1px solid white;
 }
+
+/* * * ** * * ** * * * * */
+/* TABLET RESPONSIVENESS */
+/* * * ** * * ** * * * * */
+@media screen and (min-width:768px) and (max-width:991px){
+    .hero-participants h1{
+        font-size: 36px;
+    }
+
+    .hero-participants p{
+        margin: 1% 48px;
+    }
+
+    .requirements{
+        margin: 48px;
+    }
+
+    #dates .row{
+        margin: 0 48px;
+    }
+}
+
+/* * * ** * * ** * * * *  * */
+/* * PHONE RESPONSIVENESS * */
+/* * * ** * * ** * * * * * **/
+@media screen and (max-width:767px){
+    .hero-participants{
+        margin-top: 82px;
+    }
+
+    .hero-participants h1{
+        margin-top: 44px;
+        font-size: 28px;
+    }
+
+    .hero-participants p{
+        font-size: 16px;
+        margin: 1% 16px;
+    }
+
+    .requirements{
+        margin: 0 20px 47px 2px ;
+    }
+
+    #dates .row{
+        margin: 0 20px;
+    }
+}

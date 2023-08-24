@@ -276,7 +276,8 @@
 }
 
 #second-row-notices .col-md-6{
-    height: auto;
+    padding-top: 55px;
+    padding-bottom: 46px;
 }
 
 .notices-header-desktop{

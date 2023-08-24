@@ -28,7 +28,7 @@ p{
 
 h2{
     font-family: Poppins;
-    color: #404040;
+    color: var(--black-text);
     font-size: 36px;
     font-weight: 700;
 }
@@ -41,7 +41,7 @@ h2{
 }
 
 .nav-link{
-    border-left:  4px solid black;
+    border-left:  4px solid rgba(190, 31, 36, 0.25);
     border-image: linear-gradient(to bottom, transparent 26%, rgba(190, 31, 36, 0.25) 26% 57%, transparent 57%) 1% 1; /* line dividing nav links*/
 }
 

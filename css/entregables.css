@@ -9,7 +9,7 @@ h1{
     text-align: center;
 }
 
-p{
+.row p{
     color: var(--gray-text);
     font-family: Roboto;
     font-size: 20px;
