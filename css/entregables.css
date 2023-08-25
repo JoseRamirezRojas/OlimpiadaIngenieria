@@ -40,3 +40,63 @@ ul{
     width: 47vw;
     margin-left: -14vw;
 }
+
+/* * * ** * * ** * * * * */
+/* TABLET RESPONSIVENESS */
+/* * * ** * * ** * * * * */
+@media screen and (min-width:768px) and (max-width:991px){
+    h1{
+        font-size: 36px;
+        margin-top: 160px;
+        margin-bottom: 55px;
+    }
+
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+
+    .row .col-lg-6{
+        padding: 0 47px;
+    }
+
+    .requirements{
+        margin: 48px;
+    }
+
+    .img-entregables{
+        width: 100vw;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+/* * * ** * * ** * * * *  * */
+/* * PHONE RESPONSIVENESS * */
+/* * * ** * * ** * * * * * **/
+@media screen and (max-width:767px){
+    h1{
+        font-size: 28px;
+        margin-top: 109px;
+        margin-bottom: 55px;
+    }
+
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+
+    .row .col-lg-6{
+        padding: 0 19px;
+    }
+
+    .requirements{
+        margin: 48px;
+    }
+
+    .img-entregables{
+        width: 100vw;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}

@@ -13,7 +13,7 @@
 }
 
 .comments h2{
-    margin: 29px 25%;
+    margin: 29px 5%;
     color: var(--light-blue);
     text-align: center;
     font-family: Poppins;
@@ -25,13 +25,11 @@
 
 #contact .row{
     margin: 0 19%;
-    
 }
 
 #contact .row img{
     margin-top: 21px;
     height: 314px;
-    width: auto;
 }
 
 #contact h3{
@@ -46,13 +44,17 @@
 
 #contact p{
     color: var(--gray-text);
-    text-align: left;
+    text-align: center;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 36px */
     margin-top: 25px;
+}
+
+#contact .row p{
+    text-align: left;
 }
 
 /* COMMITTEE */
@@ -107,4 +109,114 @@ h5{
     font-weight: 500;
     line-height: 150%; /* 30px */
     margin: 0 3px;
+}
+
+/* * * ** * * ** * * * * */
+/* TABLET RESPONSIVENESS */
+/* * * ** * * ** * * * * */
+@media screen and (min-width:768px) and (max-width:991px){
+    .comments{
+        margin: 56px 100px 36px 100px;
+    }
+    
+    .comments h2{
+        font-size: 36px;
+    }
+
+    #contact .row{
+        margin: 0 56px;
+    }
+
+    #contact .row img{
+        padding: 4% 0;
+    }
+
+    #committee .row{
+        margin: 0 131px;
+    }
+
+    #committee img{
+        width: 92%;
+        margin: 0 4%;
+    }
+
+    h4{
+        margin: 0 4%;
+    }
+
+    .job{
+        margin: 0 4%;
+    }
+
+    #committee h1{
+        font-size: 36px;
+        margin-bottom: 44px;
+    }
+}
+
+/* * * ** * * ** * * * *  * */
+/* * PHONE RESPONSIVENESS * */
+/* * * ** * * ** * * * * * **/
+@media screen and (max-width:767px){
+    #contact{
+        margin-top: 104px;
+    }
+
+    .comments{
+        margin: 23px 40px 36px 40px;
+    }
+
+    .comments h2{
+        font-size: 28px;
+    }
+
+    #contact h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #contact .row{
+        margin: 0 16px;
+    }
+
+    #contact .row img{
+        padding: 9% 14%;
+        margin-top: 0;
+    }
+
+    #contact p{
+        font-size: 20px;
+    }
+
+    #contact .row p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #committee .row{
+        margin: 0 18px;
+    }
+
+    #committee h1{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    h4{
+        font-size: 16px;
+        margin: 3px 5%;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    #committee img{
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .job{
+        margin: 0 5%;
+    }
 }
