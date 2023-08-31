@@ -86,15 +86,19 @@
 }
 
 .integrant-description-cities{
-    height: auto;
+    height: 106px;
     background-color: var(--green-cities);
     padding: 8px 15px;
+    display: flex;
+    align-items: center;    
 }
 
 .integrant-description-nexus{
-    height: auto;
+    height: 106px;
     background-color: var(--blue-nexus);
     padding: 8px 15px;
+    display: flex;
+    align-items: center;
 }
 
 .integrant-description-cities p{
@@ -156,6 +160,10 @@
 
     .project-images img{
         height: 114px;
+    }
+
+    .integrant-description-cities, .integrant-description-nexus{
+        height: 136px;
     }
 
     .integrant-description-cities p{
