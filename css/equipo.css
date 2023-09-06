@@ -62,8 +62,7 @@
     font-weight: 500;
 }
 
-.project-summary p{
-    margin-top: 16px;
+.project-summary {
     color: var(--gray-text);
     font-family: Roboto;
     font-size: 18px;
@@ -71,6 +70,10 @@
     font-weight: 400;
     line-height: 150%; /* 27px */
     margin-bottom: 32px;
+}
+
+.project-summary p{
+    margin: 33px 0;
 }
 
 .project-images img{
@@ -151,7 +154,7 @@
     }
 
     .cities-title{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .project-info p{
