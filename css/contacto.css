@@ -53,6 +53,12 @@
     margin-top: 25px;
 }
 
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 #contact .row p{
     text-align: left;
 }
