@@ -132,6 +132,10 @@
     font-weight: 500;
 }
 
+.justify-content-center a{
+    text-decoration: none;
+}
+
 /* * * ** * * ** * * * * */
 /* TABLET RESPONSIVENESS */
 /* * * ** * * ** * * * * */
